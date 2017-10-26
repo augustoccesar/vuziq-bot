@@ -13,7 +13,7 @@ const server = restify.createServer({});
 
 // Server config
 
-server.post(`/bot${TOKEN}`, (req, res) => {
+server.post(`/bot${token}`, (req, res) => {
     bot.processUpdate(req.body);
     res.send(200);
 });

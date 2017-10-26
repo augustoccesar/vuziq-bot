@@ -11,10 +11,12 @@ const bot = new TelegramBot(token);
 
 const server = restify.createServer({});
 
+server.use(restify.plugins.bodyParser());
+
 // Server config
 
 server.post(`/bot${token}`, (req, res) => {
-    bot.processUpdate(JSON.parse(req.body));
+    bot.processUpdate(req.body);
     res.send(200);
 });
 

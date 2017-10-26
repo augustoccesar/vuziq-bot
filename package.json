@@ -1,0 +1,18 @@
+{
+  "name": "vuziq-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "author": "Augusto Cesar <augusto.acfs@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "6.2.3",
+    "node-telegram-bot-api": "0.29.0",
+    "lowdb": "1.0.0",
+    "moment": "2.19.1"
+  }
+}

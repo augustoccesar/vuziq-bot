@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 34293458,
+      "username": "augustoccesar",
+      "throttle": {
+        "message_count": 3,
+        "last_message_time": 1509044181611
+      }
+    }
+  ]
+}

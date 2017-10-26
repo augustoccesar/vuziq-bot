@@ -14,7 +14,7 @@ const server = restify.createServer({});
 // Server config
 
 server.post(`/bot${token}`, (req, res) => {
-    bot.processUpdate(req.body);
+    bot.processUpdate(JSON.parse(req.body));
     res.send(200);
 });
 

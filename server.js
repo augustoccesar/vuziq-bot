@@ -4,7 +4,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const restify = require('restify');
 const {load_filter} = require('./lib/filters');
 
-const url = 'https://<PUBLIC-URL>';
+const url = 'https:///vuziq-bot.herokuapp.com';
 const port = process.env.PORT || 3000;
 const token = process.env.TELEGRAM_TOKEN;
 const bot = new TelegramBot(token);
